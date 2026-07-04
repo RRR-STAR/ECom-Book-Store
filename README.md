@@ -2,8 +2,7 @@
 
 A classic **PHP + MySQL eCommerce clone** focused on online book shopping, with cart, checkout flow, and admin management pages.
 
-🌐 **Live Demo:** https://smr.wuaze.com/e-com-bookstore/  
-📦 **Repository:** https://github.com/RRR-STAR/ECom-Book-Store
+🌐 **Live Demo:** https://smr.wuaze.com/e-com-bookstore/ 
 
 ---
 
@@ -32,11 +31,6 @@ Based on repository analysis:
 - **Server:** Apache HTTP Server
 - **Local stack recommendation:** XAMPP / WAMP / MAMP / LAMP
 
-Language composition:
-- PHP: **96.1%**
-- HTML: **3.1%**
-- Other: **0.8%**
-
 ---
 
 ## 📁 Project Structure (high-level)
@@ -58,7 +52,7 @@ Language composition:
 
 Install any one local server stack:
 
-- XAMPP (recommended for Windows beginners)
+- XAMPP (recommended for Windows)
 - WAMP
 - MAMP
 - LAMP
@@ -144,9 +138,7 @@ If Apache port is custom (e.g., 8080):
 The SQL dump includes an admin user in `admin` table:
 
 - username: `admin`
-- password: stored as SHA1 hash (`d033e22ae348aeb5660fc2140aec35850c4da997`)
-
-If needed, reset/change admin credentials directly in DB for local testing.
+- password: `contact me 😁`
 
 ---
 
@@ -167,20 +159,3 @@ If needed, reset/change admin credentials directly in DB for local testing.
 - Keep folder structure unchanged
 
 ---
-
-## 🚀 Suggested Improvements (optional)
-
-If you want to modernize this project:
-
-- Add `.env`-based configuration for DB credentials
-- Use password hashing via `password_hash()` / `password_verify()`
-- Add CSRF protection on forms
-- Add input validation/sanitization on all request handlers
-- Introduce routing + MVC cleanup
-- Add README screenshots and API/data-flow docs
-
----
-
-## 🙌 Acknowledgment
-
-This project is a practical learning clone of a traditional online bookstore/eCommerce flow using PHP and MySQL, suitable for students and beginners learning full-stack web fundamentals.
